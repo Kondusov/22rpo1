@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
+body{
+    background-color: #8390aa;
+}
+header{
+    display: flex;
+}
+.block-top-banner{
+    background-image: url('../img/big-banner-1.png');
+    min-height: 858px;
+}
+.text-banner{
+    color: #fff;
+    text-align: center;
+    /* vertical-align: baseline; */
+    margin-top: 10%;
+}
+.text-banner .top-text{
+    font-family: "Playwrite CU", cursive;
+    font-optical-sizing: auto;
+    font-size: 2rem;
+}
+.text-banner h2{
+    font-size: 6rem;
+}
+.text-banner button{
+    background-color: #d37b23;
+    color: #fff;
+    padding: 10px 23px;
+    border-radius: 27px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+.text-banner button:hover{
+    cursor: pointer;
+    color: #000;
+    transition: 0.8s;
+}
