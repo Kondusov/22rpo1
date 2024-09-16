@@ -4,21 +4,25 @@ body{
 }
 header{
     display: flex;
+    align-items: center;
+    color: #fff;
 }
 .block-top-banner{
-    background-image: url('../img/big-banner-1.png');
-    min-height: 858px;
+    background: url(../img/big-banner-1.png) no-repeat;
+    /* min-height: 858px; */
+    background-size: cover;
 }
 .text-banner{
     color: #fff;
     text-align: center;
-    /* vertical-align: baseline; */
+    padding-bottom: 58px;
     margin-top: 10%;
 }
 .text-banner .top-text{
     font-family: "Playwrite CU", cursive;
     font-optical-sizing: auto;
     font-size: 2rem;
+    margin-bottom: 3px;
 }
 .text-banner h2{
     font-size: 6rem;
@@ -35,4 +39,34 @@ header{
     cursor: pointer;
     color: #000;
     transition: 0.8s;
+}
+.logo img{
+    max-height: 55px;
+}
+.phone p{
+    margin: 0;
+}
+nav a{
+    color: #fff;
+    padding-right: 8px;
+}
+.call-back button{
+    background: #fa8507;
+    color: #fff;
+    border-radius: 7px;
+    font-size: 11px;
+    padding: 7px 15px;
+}
+.call-back button:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #fa8507;
+    transition: 1s;
+}
+.phone p:first-child{
+    font-size: 11px;
+}
+.our-story .images img{
+    padding: 20px;
+    max-height: 400px;
 }
