@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Playwrite+CU:wght@100..400&display=swap');
 body{
-    background-color: #8390aa;
+    background-color: #fff;
 }
 header{
     display: flex;
@@ -66,7 +66,33 @@ nav a{
 .phone p:first-child{
     font-size: 11px;
 }
+.our-story{
+    background-color: #fff;
+    margin-top: 15px;
+}
 .our-story .images img{
     padding: 20px;
     max-height: 400px;
+}
+.our-story .text-block{
+    padding-top: 17px;
+}
+.our-story .text-block h4{
+    font-family: cursive;
+    text-decoration: underline;
+}
+.our-story .text-block h4 span{
+    color: #fa8507;
+}
+.our-story .text-block .main-text{
+    color: #777777;
+    margin-top: 15px;
+    padding: 15px 3px;
+}
+.icon-block .col-10 p{
+    margin: 0;
+}
+.icon-block .col-2 i{
+    font-size: 3rem;
+    color: #fa8507;
 }
