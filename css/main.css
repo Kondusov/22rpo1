@@ -68,7 +68,11 @@ nav a{
 }
 .our-story{
     background-color: #fff;
-    margin-top: 15px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.our-story .items-block{
+    justify-content: space-between;
 }
 .our-story .images img{
     padding: 20px;
@@ -89,10 +93,51 @@ nav a{
     margin-top: 15px;
     padding: 15px 3px;
 }
-.icon-block .col-10 p{
+.icon-block .col-6 p{
     margin: 0;
 }
-.icon-block .col-2 i{
-    font-size: 3rem;
+.icon-block .col-6 i{
+    font-size: 4rem;
     color: #fa8507;
+}
+.our-story .icon-block .text-item p:first-child{
+    font-size: 3rem;
+}
+.our-story .icon-block .text-item p:last-child{
+    font-size: 1rem;
+    font-style: italic;
+}
+.our-story .icon-block .i-container{
+    display: flex;
+    align-items: center;
+}
+.our-strength .header-block{
+    text-align: center;
+}
+.our-strength .header-block h2{
+    font-size: 3rem;
+    font-family: cursive;
+    text-shadow: #777 1px -3px 2px;
+}
+.our-strength .header-block h2 span{
+    color: #fa8507;
+}
+.our-strength .items-block{
+    margin: 50px 0;
+}
+.our-strength .items-block .item{
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+.our-strength .items-block .icon-block i{
+    font-size: 5rem;
+    color: #fa8507;
+}
+.our-strength .items-block h3{
+    font-style: italic;
+}
+.our-strength .items-block .item{
+    box-shadow: #777777 4px 5px;
+    border: #000 1px solid;
 }
