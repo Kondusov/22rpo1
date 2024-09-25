@@ -141,3 +141,121 @@ nav a{
     box-shadow: #777777 4px 5px;
     border: #000 1px solid;
 }
+/*Код Миши*/
+
+.offer {
+
+    height: 356px;
+    background-image: url(../img/b-lunch.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 115px 0;
+}
+
+.offer__flex {
+    display: flex;
+    justify-content: space-between;
+}
+
+.offer_content {
+    margin-left: 20%;
+    padding-top: 7%;
+}
+
+.offer_button {
+    display: block;
+    margin-right: 15%;
+    width: 179px;
+    height: 60px;
+    padding: 17px 48px;
+    color: #FFFFFF;
+    font-weight: 700;
+    background: #fa8507;
+    font-size: 16px;
+    text-align: center;
+    border-radius: 50px;
+    margin-top: 9%;
+}
+
+.offer_content_header, .offer_content_subheader {
+    color: #FFFFFF;
+}
+
+.offer_content_header {
+    font-size: 38px;
+}
+
+.offer_content_subheader {
+    font-size: 24px;
+}
+/*END Код Миши*/
+.daily-offers{
+
+}
+.daily-offers .header{
+    text-align: center;
+    margin-bottom: 5rem;
+}
+.daily-offers .header h2{
+    font-size: 3rem;
+    font-family: cursive;
+    text-shadow: #777 1px -3px 2px;
+}
+.daily-offers .header img{
+    
+}
+.daily-offers .my-container{
+    width: 80%;
+    margin-left: auto;
+    margin-right:auto ;
+}
+.daily-offers .img-burger, .daily-offers .items-block{
+    display: inline-block;
+    width: 48%;
+}
+.daily-offers .img-burger{
+    
+}
+.daily-offers .img-burger img{
+    max-width: -webkit-fill-available;
+}
+.daily-offers .items-block{
+    float: right;
+}
+.daily-offers .items-block .item{
+    border: #777 1px dashed;
+    margin-bottom: 13%;
+}
+.daily-offers .items-block .item div{
+    display: inline-block;
+}
+.daily-offers .items-block .item .img-item{
+    
+}
+.daily-offers .items-block .item .img-item img{
+    
+}
+.daily-offers .items-block .item .text-item{
+    
+}
+.daily-offers .items-block .item .text-item p{
+    
+}
+.daily-offers .items-block .item .text-item p:first-child{
+    font-size: 1.8rem;
+    font-weight: 500;
+}
+.daily-offers .items-block .item .text-item p:last-child{
+    font-size: 1.2rem;
+    color: #777;
+}
+.daily-offers .items-block .item .icon-item{
+    float: right;
+    height: 137px;
+    padding: 50px 0 0 0;
+    margin-right: -21px;
+}
+.daily-offers .items-block .item .icon-item i{
+    font-size: 2.3rem;
+    color: #fa8507;
+}
