@@ -224,7 +224,11 @@ nav a{
 }
 .daily-offers .items-block .item{
     border: #777 1px dashed;
-    margin-bottom: 13%;
+    margin-bottom: 8%;
+}
+.daily-offers .items-block div:nth-child(3){
+    
+    margin-bottom: 0;
 }
 .daily-offers .items-block .item div{
     display: inline-block;
@@ -233,7 +237,7 @@ nav a{
     
 }
 .daily-offers .items-block .item .img-item img{
-    
+    height: 156px;
 }
 .daily-offers .items-block .item .text-item{
     
@@ -258,4 +262,24 @@ nav a{
 .daily-offers .items-block .item .icon-item i{
     font-size: 2.3rem;
     color: #fa8507;
+}
+.our-menu{
+    margin: 120px 0;
+}
+.our-menu .my-container{
+    max-width: 80%;
+    margin: 0 auto;
+    text-align: center;
+}
+.our-menu .my-container .header h1{
+    font-size: 3rem;
+    font-family: cursive;
+    text-shadow: #777 1px -3px 2px;
+}
+.our-menu .icon-block .icon{
+    display: flex;
+    justify-content: space-around;
+}
+.our-menu .icon-block .border{
+    border: 3px #999 solid;
 }
