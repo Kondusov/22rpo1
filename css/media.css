@@ -1,0 +1,37 @@
+@media screen and (max-width:1470px) {
+    .daily-offers .img-burger, .daily-offers .items-block {
+        display: block;
+        width: 98%;
+    }
+    .daily-offers .items-block {
+        float: none;
+        margin-top: 100px;
+    }
+    .daily-offers .items-block .item{
+        text-align: start;
+    }
+    .our-menu .block-menu{
+        display: block;
+    }
+    .our-menu .block-menu .menu-item{
+        width: 50%;
+        margin: 20px auto ;
+    }
+}
+@media screen and (max-width:1080px) {
+    .our-menu .block-menu .menu-item {
+        width: 80%;
+    }
+}
+@media screen and (max-width:730px) {
+    .daily-offers .items-block .item .img-item img {
+        max-height: 125px;
+    }
+    .daily-offers .items-block .item .text-item p:first-child {
+        font-size: 1.3rem;
+    }
+    .daily-offers .items-block .item .text-item p:last-child {
+        font-size: 0.9rem;
+        color: #777;
+    }
+}
