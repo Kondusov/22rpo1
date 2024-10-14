@@ -395,3 +395,123 @@ button:hover {
     background-color: #e68900;
 }
 /* END zahar savchenko code */
+/* Vlad code */
+.clients-feedback
+{
+    margin-top: 100px;
+}
+
+.clients-feedback .block-title
+{
+    display: block;
+    h2{
+        text-align: center;
+        
+        font-size: 3rem;
+        font-family: cursive;
+        text-shadow: #777 1px -3px 2px;
+    }
+    span{
+        color:#ff9800;
+    }
+    img{
+        display: block;
+        margin: 40px auto;
+    }
+}
+
+.clients-feedback .feedback-container
+{
+    display: flex;
+    justify-content: center;
+    margin: 100px auto;
+}
+.clients-feedback .feedback-item
+{
+    display: inline-block;
+    align-content: center;
+    height: 471px;
+    width: 545px;
+
+    background-color: #eeeeee;
+
+    margin: 0 20px;
+    padding: 40px 20px;
+
+    text-align: center;
+}
+.clients-feedback .icon
+{
+    display: block;
+    img{
+        border: none;
+        border-radius: 50px;
+        height: 100px;
+        width: 100px;
+    }
+}
+/* Vlad code end */
+/*Alexandr Code*/
+.food-gallery
+{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.gallery-container
+{
+    max-width: 95%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+}
+.food-gallery .block-title
+{
+    text-align: center;
+    h2{
+        text-align: center;
+        
+        font-size: 3rem;
+        font-family: cursive;
+        text-shadow: #777 1px -3px 2px;
+    }
+    span
+    {
+        color: #ff9800;
+    }
+}
+.food-image-line
+{
+    margin-top: 50px;
+    justify-content: space-between;
+    display: flex;
+}
+.food-image-line .img-item
+{
+    position: relative;
+    width: 23%;
+}
+.food-image-line .img-item img
+{
+    width: 100%;
+}
+.inner-content
+{
+    transition: 0.7s;
+    width: 75%;
+    height: 75%;
+    padding: 35px;
+    background:rgba(50, 38, 38, 0);
+    color:#ffffff00;
+    top: 12.5%;
+    left: 12.5%;
+    position: absolute;
+}
+.food-image-line .img-item:hover
+{
+    .inner-content
+    {
+        background:rgba(50, 38, 38, 0.579);
+        color:#ffffff;
+    }
+}
+/*Alexander code*/
